@@ -1,0 +1,14 @@
+.Header-parent-div {
+    margin: 10px auto;
+    background: #e7e7f1;
+    height: 100px;
+    width: 98%;
+    border-radius: 30px;
+}
+
+.Header-parent-div h1 {
+    color: #65656d;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 1px 4px 2px #6fdfd2;
+}

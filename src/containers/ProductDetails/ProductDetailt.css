@@ -1,0 +1,127 @@
+.Detailt-parent-div {
+    color: #FCFCFA;
+    display: flex;
+    background: #FCFCFA;
+    margin: 50px auto;
+}
+
+.Detailt-parent-div img {
+    min-width: 400px;
+    min-height: 400px;
+    margin-left: 50px;
+
+}
+
+.text-div {
+    margin-top: 100px;
+   margin-left: 70px;
+}
+
+.Detailt-parent-div p,
+h2 {
+    color: #0c030163;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+
+}
+.Detailt-parent-div 
+h2 {
+  text-align: center;
+}
+
+
+
+.go-back {
+  appearance: button;
+  background-color: #4D4AE8;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #4D4AE8;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-20:focus:not(:focus-visible),
+.button-20:focus {
+  outline: 0;
+}
+
+.button-20:hover {
+  background-color: #3733E5;
+  border-color: #3733E5;
+}
+
+.button-20:focus {
+  background-color: #413FC5;
+  border-color: #3E3BBA;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset, rgba(46, 54, 80, 0.075) 0 1px 1px, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.go-back:active {
+  background-color: #3E3BBA;
+  background-image: none;
+  border-color: #3A38AE;
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset;
+}
+
+.go-back:active:focus {
+  box-shadow: rgba(46, 54, 80, 0.125) 0 3px 5px inset, rgba(104, 101, 235, 0.5) 0 0 0 .2rem;
+}
+
+.go-back:disabled {
+  background-image: none;
+  box-shadow: none;
+  opacity: .65;
+  pointer-events: none;
+}
+
+
+@media (max-width:1231px) {
+    .Detailt-parent-div img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .Detailt-parent-div p {
+        /* margin: 50px; */
+    }
+}
+
+@media (max-width:1044px) {
+    .Detailt-parent-div img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width:800px) {
+    .Detailt-parent-div img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .Detailt-parent-div {
+        flex-wrap: wrap;
+    }
+
+    .text-div {
+        margin-top: 0px;
+    }
+}
+
